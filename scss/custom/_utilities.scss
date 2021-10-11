@@ -5,11 +5,12 @@ $utilities: map-merge(
         property: letter-spacing,
         class: tracking,
         values: (
-          0: 0,
-          1: 0.0625rem,
-          2: 0.125rem,
-          3: 0.187rem,
-        ),
+          2: 0.2px,
+          7: 0.7px,
+          19: 1.92px,
+          20: 2px,
+          30: 3px
+        )
     ),
     'object-fit': (
       property: object-fit,

@@ -10171,20 +10171,24 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
-.tracking-0 {
-  letter-spacing: 0 !important;
-}
-
-.tracking-1 {
-  letter-spacing: 0.0625rem !important;
-}
-
 .tracking-2 {
-  letter-spacing: 0.125rem !important;
+  letter-spacing: 0.2px !important;
 }
 
-.tracking-3 {
-  letter-spacing: 0.187rem !important;
+.tracking-7 {
+  letter-spacing: 0.7px !important;
+}
+
+.tracking-19 {
+  letter-spacing: 1.92px !important;
+}
+
+.tracking-20 {
+  letter-spacing: 2px !important;
+}
+
+.tracking-30 {
+  letter-spacing: 3px !important;
 }
 
 .object-contain {
