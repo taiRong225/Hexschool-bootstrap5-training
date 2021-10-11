@@ -1,0 +1,26 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    'letter-spacing': (
+        property: letter-spacing,
+        class: tracking,
+        values: (
+          0: 0,
+          1: 0.0625rem,
+          2: 0.125rem,
+          3: 0.187rem,
+        ),
+    ),
+    'object-fit': (
+      property: object-fit,
+      class: object,
+      values: (
+        contain,
+        cover,
+        fill,
+        none,
+        scale-down,
+      ),
+    ),
+  )
+);
