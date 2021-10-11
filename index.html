@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>拼拼 - 募資網站</title>
+
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
     <link rel="stylesheet" href="scss/all.css">
 </head>
 
@@ -45,7 +50,83 @@
         </nav>
     </header>
 
+    <!-- 商品 -->
+    <section class="my-12">
+        <div class="container">
+            <span class="badge bg-secondary text-white fs-xs px-4 mb-1">魔法科技</span>
+            <h1 class="fs-2 fw-bold lh-base tracking-30 mb-6">拍出會動的照片｜LivePhotos 魔法拍立得</h1>
+            <div class="row">
+                <div class="col-lg-7">
+                    <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/produt_image.jpg"
+                        alt="product-img" class="img-fluid">
+                </div>
+                <div class="col-lg-5">
+                    <span class="fx-sm font-display text-dark mb-1">目標 $600,000</span>
+                    <p class="fs-2 font-display fw-bold lh-lg">$280,047</p>
+                    <div class="progress mb-5">
+                        <div class="progress-bar fs-xs text-secondary" role="progressbar" style="width: 41%;"
+                            aria-valuenow="41" aria-valuemin="0" aria-valuemax="100">41%</div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-6">
+                            <span class="fs-sm text-dark lh-base">贊助人數</span>
+                            <p class="fs-2 font-display fw-bold lh-lg">1374 人</p>
+                        </div>
+                        <div class="col-6">
+                            <span class="fs-sm text-dark lh-base">募資倒數</span>
+                            <p class="fs-2 font-display fw-bold lh-lg">27 天</p>
+                        </div>
+                    </div>
+                    <ul class="d-flex list-unstyled mb-4">
+                        <li class="me-6"><img
+                                src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good01.svg"
+                                alt="icon-goood01" data-bs-toggle="tooltip" data-bs-placement="top" title="認證標章"></li>
+                        <li class="me-6"><img
+                                src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good02.svg"
+                                alt="icon-goood02" data-bs-toggle="tooltip" data-bs-placement="top" title="品質保證"></li>
+                        <li class="me-6"><img
+                                src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good03.svg"
+                                alt="icon-goood03" data-bs-toggle="tooltip" data-bs-placement="top" title="原生創意"></li>
+                        <li class="me-6"><img
+                                src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good04.svg"
+                                alt="icon-goood04" data-bs-toggle="tooltip" data-bs-placement="top" title="人氣王"></li>
+                    </ul>
+                    <div class="border-start border-primary border-3 p-4 mb-6">
+                        <p class="text-dark lh-base">
+                            專案募資中！<br>在 2021/06/14 23:59 募資結束前，您都可以贊助我們！
+                        </p>
+                    </div>
+                    <div class="row g-2">
+                        <div class="col-12 mb-2">
+                            <a href="#" class="btn btn-primary btn-lg rounded-pill link-dark fw-bold w-100">贊助專案</a>
+                        </div>
+                        <div class="col-6 col-lg-7">
+                            <a href="#"
+                                class="btn btn-outline-secondary btn-lg rounded-pill link-secondary fs-5 fw-bold w-100 border-2">
+                                <i class="fas fa-heart me-2"></i>贊助專案
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-5">
+                            <a href="#"
+                                class="btn btn-outline-secondary btn-lg rounded-pill link-secondary fs-5 bold w-100 border-2">
+                                <i class="fas fa-share-alt me-2"></i>分享
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script>
+        // tooltip init
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    </script>
 
 </body>
 
