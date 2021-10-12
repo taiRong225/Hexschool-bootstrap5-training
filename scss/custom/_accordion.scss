@@ -1,0 +1,13 @@
+.accordion-body {
+    padding: 16px 64px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.accordion-button {
+    &:focus {
+        background-color: transparent;
+        color: $body-color;
+        box-shadow: none;
+        border-color: rgba(0,0,0,.125);
+    }
+}

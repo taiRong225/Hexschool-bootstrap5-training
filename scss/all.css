@@ -1,16 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap");
-.nav-item > .active {
-  border-bottom: 2px solid #FFDF65 !important;
-  font-weight: bold !important;
-}
-
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -15628,5 +15623,23 @@ fieldset:disabled .btn {
   .d-print-none {
     display: none !important;
   }
+}
+
+.nav-item > .active {
+  border-bottom: 2px solid #FFDF65 !important;
+  font-weight: bold !important;
+}
+
+.accordion-body {
+  padding: 16px 64px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.accordion-button:focus {
+  background-color: transparent;
+  color: #494846;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
 }
 /*# sourceMappingURL=all.css.map */

@@ -5,12 +5,13 @@
 @import '../node_modules/bootstrap/scss/mixins';
 @import '../node_modules/bootstrap/scss/utilities';
 
-// Componetn
-@import 'custom/nav';
-
 // Utilities
 @import 'custom/utilities'; // 自定義通用類別
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+// Component
+@import 'custom/nav';
+@import 'custom/accordion';
 
 // Google-Fonts
 @import '_google-fonts.scss';
