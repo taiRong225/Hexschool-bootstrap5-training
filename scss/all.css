@@ -15642,4 +15642,9 @@ fieldset:disabled .btn {
           box-shadow: none;
   border-color: rgba(0, 0, 0, 0.125);
 }
+
+.accordion-button:not(.collapsed) {
+  color: #494846;
+  background-color: transparent;
+}
 /*# sourceMappingURL=all.css.map */
