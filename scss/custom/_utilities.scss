@@ -41,5 +41,16 @@ $utilities: map-merge(
         display: $font-family-display,
       ),
     ),
+    "text-align": (
+      responsive: true,
+      property: text-align,
+      class: text,
+      values: (
+        start: left,
+        end: right,
+        center: center,
+        justify: justify
+      )
+    ),
   )
 );
