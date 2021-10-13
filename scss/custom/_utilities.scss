@@ -52,5 +52,13 @@ $utilities: map-merge(
         justify: justify
       )
     ),
+    'z-index': (
+      property: z-index,
+      class: z,
+      values: (
+        0: 0,
+        10: 10
+      ),
+    ),
   )
 );

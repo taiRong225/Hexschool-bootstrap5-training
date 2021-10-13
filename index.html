@@ -144,8 +144,10 @@
 
     <!-- 下方主要區塊 -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 py-12">
+        <div class="row py-12">
+            <div class="col-lg-8">
+
+                <!-- 頁籤 Nav Tab 內容區域 -->
                 <div class="tab-content" id="myTabContent">
 
                     <!-- 專案介紹 -->
@@ -385,6 +387,50 @@
                         </ul>
                     </div>
                 </div>
+
+                <!-- 贊助專案 -->
+                <section>
+                    <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_heart.svg" alt="icon-heart"
+                        class="d-block mx-auto mb-1 mt-12">
+                    <div class="position-relative d-flex justify-content-center mb-6">
+                        <h4 class="fs-4 fw-bold lh-base tracking-19 bg-white px-4 z-10">贊助專案</h4>
+                        <div
+                            class="border-bottom border-primary border-3 position-absolute top-50 start-0 translate-middle-y w-100">
+                        </div>
+                    </div>
+                    <form>
+                        <div class="mb-4">
+                            <label for="plan" class="form-label">贊助方案</label>
+                            <select class="form-select" id="plan">
+                                <option selected disabled>請選擇一個方案</option>
+                                <option value="方案一">方案一</option>
+                                <option value="方案二">方案二</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="recipient" class="form-label">收件人姓名</label>
+                            <input type="text" class="form-control" id="recipient">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="form-label">聯絡電話</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">連絡信箱</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="payment" class="form-label">付款方式</label>
+                            <select class="form-select" id="payment">
+                                <option disabled>請選擇一個付款方式</option>
+                                <option value="信用卡付款" selected>信用卡付款</option>
+                                <option value="貨到付款">貨到付款</option>
+                            </select>
+                        </div>
+                        <button type="submit"
+                            class="d-block mx-auto btn btn-primary rounded-pill fs-5 fw-bold lh-base text-dark px-12 py-3 mt-6">贊助專案</button>
+                    </form>
+                </section>
             </div>
             <div class="col-lg-4"></div>
         </div>

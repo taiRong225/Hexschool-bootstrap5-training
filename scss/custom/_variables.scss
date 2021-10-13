@@ -70,6 +70,20 @@ $font-sizes: (
   xs: $font-size-xs
 ) !default;
 
+// Forms
+
+// form-label-variables
+$form-label-color: #373A3C;
+
+// form-input-variables
+$input-bg: #F7F7F7;
+$input-border-width: 0;
+
+// form-select-variables
+$form-select-color: #999999;
+$form-select-indicator-color: #373A3C;
+$form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9.6 16'><path fill='#{$form-select-indicator-color}' d='M12.8,6.4H3.2L8,0ZM3.2,9.6h9.6L8,16Z' transform='translate(-3.2)'/></svg>");
+
 // Tooltips
 
 // tooltip-variables
