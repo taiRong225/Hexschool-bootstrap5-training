@@ -2,3 +2,23 @@
     width: 30px;
     height: 30px;
 }
+
+.btn-primary:hover {
+    background-color: $danger;
+    color: white;
+    border-color: $danger;
+}
+
+.btn-outline-secondary:hover {
+    background-color: $primary;
+    border-color: $primary;
+
+    i {
+        color: $danger;
+    }
+}
+
+.btn-outline-dark:hover {
+    background-color: $primary;
+    border-color: $primary;
+}

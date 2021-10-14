@@ -15666,4 +15666,24 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+.btn-primary:hover {
+  background-color: #FF785E;
+  color: white;
+  border-color: #FF785E;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #FFDF65;
+  border-color: #FFDF65;
+}
+
+.btn-outline-secondary:hover i {
+  color: #FF785E;
+}
+
+.btn-outline-dark:hover {
+  background-color: #FFDF65;
+  border-color: #FFDF65;
+}
 /*# sourceMappingURL=all.css.map */
