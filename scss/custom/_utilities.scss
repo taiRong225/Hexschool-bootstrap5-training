@@ -60,5 +60,12 @@ $utilities: map-merge(
         10: 10
       ),
     ),
+    "font-size": (
+      responsive: true,
+      rfs: true,
+      property: font-size,
+      class: fs,
+      values: $font-sizes
+    ),
   )
 );
