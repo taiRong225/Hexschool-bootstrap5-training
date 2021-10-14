@@ -398,34 +398,39 @@
                             class="border-bottom border-primary border-3 position-absolute top-50 start-0 translate-middle-y w-100">
                         </div>
                     </div>
-                    <form>
+                    <form class="needs-validation" novalidate>
                         <div class="mb-4">
                             <label for="plan" class="form-label">贊助方案</label>
-                            <select class="form-select" id="plan">
-                                <option selected disabled>請選擇一個方案</option>
+                            <select class="form-select" id="plan" required>
+                                <option disabled>請選擇一個方案</option>
                                 <option value="方案一">方案一</option>
                                 <option value="方案二">方案二</option>
                             </select>
+                            <div class="invalid-feedback">請選擇贊助方案</div>
                         </div>
                         <div class="mb-4">
                             <label for="recipient" class="form-label">收件人姓名</label>
-                            <input type="text" class="form-control" id="recipient">
+                            <input type="text" class="form-control" id="recipient" required>
+                            <div class="invalid-feedback">請輸入正確的收件人姓名</div>
                         </div>
                         <div class="mb-4">
                             <label for="phone" class="form-label">聯絡電話</label>
-                            <input type="tel" class="form-control" id="phone">
+                            <input type="tel" class="form-control" id="phone" required>
+                            <div class="invalid-feedback">請輸入正確的聯絡電話</div>
                         </div>
                         <div class="mb-4">
                             <label for="email" class="form-label">連絡信箱</label>
-                            <input type="email" class="form-control" id="email">
+                            <input type="email" class="form-control" id="email" required>
+                            <div class="invalid-feedback">請輸入正確的郵件地址</div>
                         </div>
                         <div class="mb-4">
                             <label for="payment" class="form-label">付款方式</label>
-                            <select class="form-select" id="payment">
+                            <select class="form-select" id="payment" required>
                                 <option disabled>請選擇一個付款方式</option>
                                 <option value="信用卡付款" selected>信用卡付款</option>
                                 <option value="貨到付款">貨到付款</option>
                             </select>
+                            <div class="invalid-feedback">請選擇付款方式</div>
                         </div>
                         <button type="submit"
                             class="d-block mx-auto btn btn-primary rounded-pill fs-5 fw-bold lh-base text-dark px-12 py-3 mt-6">贊助專案</button>
@@ -541,6 +546,28 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         });
+
+        // form validation
+        (function () {
+            "use strict";
+            var forms = document.querySelectorAll(".needs-validation");
+            console.log(forms);
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                console.log(form);
+                form.addEventListener(
+                    "submit",
+                    function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+
+                        form.classList.add("was-validated");
+                    },
+                    false
+                );
+            });
+        })();
     </script>
 
 </body>
