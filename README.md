@@ -14,7 +14,7 @@
 2. 劃分元件區域
 3. 客製化變數、通用類別、元件
 
-### 紀錄必要資訊
+## 紀錄必要資訊
 1. 圖示 icon
 2. 色系 theme-color
 3. 字型 font-family
@@ -22,7 +22,7 @@
 5. 文字行高 line-hight
 6. 文字間距 letter-sapcing
 
-### 元件
+## 元件
 1. 導航列 Navbar
 2. 商品 Product
 3. 頁籤 Tab
@@ -38,7 +38,7 @@
 5. 頁尾 Footer
 6. 登入Modal
 
-### 客製化變數、通用類別、元件
+## 客製化變數、通用類別、元件
 ``` scss
 // Configuration
 @import '../node_modules/bootstrap/scss/functions';
