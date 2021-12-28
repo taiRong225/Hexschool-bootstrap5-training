@@ -1,4 +1,7 @@
 # Hexschool-bootstrap5-training
+
+![image](https://user-images.githubusercontent.com/27886174/147526383-524046db-5317-4b00-b0c6-0497b51a237c.png)
+
 ## About Project
 六角學院 21 天帶您做出 Bootstrap 5 募資網站
 
